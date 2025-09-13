@@ -1,3 +1,4 @@
+theme = "kita"
 # The URL the site will be built for
 base_url = "https://6e12fyou.github.io"
 
@@ -7,8 +8,6 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-theme = "adidoks"
-
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -16,3 +15,14 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+[extra.profile]
+name = "6e12fyou's website"
+bio = "idk lmao"
+# The URL of avatar.
+avatar_url = "icons/github.svg"
+# Invert color in dark mode.
+avatar_invert = true
+
+[[extra.menu]]
+name = "stuff"
+url = "$BASE_URL/stuff"
