@@ -24,8 +24,8 @@ avatar_url = "icons/github.svg"
 avatar_invert = true
 
 [[extra.menu]]
-name = "stuff"
-url = "$BASE_URL/stuff"
+name = "randomstuff"
+url = "$BASE_URL/random"
 
 [[extra.menu]]
 name = "tags"
