@@ -23,6 +23,10 @@ avatar_url = "icons/github.svg"
 # Invert color in dark mode.
 avatar_invert = true
 
+[[extra.profile.social]]
+name = "youtube"
+url = "https://www.youtube.com/@6e12fyou"
+
 [[extra.menu]]
 name = "randomstuff"
 url = "$BASE_URL/random"
@@ -30,3 +34,4 @@ url = "$BASE_URL/random"
 [[extra.menu]]
 name = "tags"
 url = "$BASE_URL/tags"
+
